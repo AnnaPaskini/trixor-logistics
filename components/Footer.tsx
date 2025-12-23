@@ -5,10 +5,10 @@ const Footer: React.FC = () => {
   const { i18n, t } = useTranslation();
 
   const languages = [
-    { code: 'en', label: 'EN' },
-    { code: 'cs', label: 'CZ' },
-    { code: 'ru', label: 'RU' },
-    { code: 'de', label: 'DE' },
+    { code: 'en', label: '🇬🇧' },
+    { code: 'cs', label: '🇨🇿' },
+    { code: 'ru', label: '🇷🇺' },
+    { code: 'de', label: '🇩🇪' },
   ];
 
   const changeLanguage = (langCode: string) => {

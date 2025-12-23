@@ -132,9 +132,7 @@ const Hero: React.FC = () => {
             {t('hero.badge')}
           </div>
           <h1 className="hero-title text-5xl md:text-8xl font-black leading-tight mb-6 tracking-tight">
-            {t('hero.title')} <br />
-            <span className="text-primary">.</span>
-           
+            {t('hero.title')}<span className="inline-block w-3 h-3 bg-primary rounded-full ml-2 align-middle"></span>
           </h1>
           <p className="hero-subtitle text-xl md:text-2xl text-neutral-200 max-w-2xl mb-12 font-light">
             {t('hero.subtitle')} <br />
@@ -189,19 +187,23 @@ const Hero: React.FC = () => {
             100% { background-position: -100% 0; }
           }
           .animate-scan-line {
-            /* Gradient: Neutral-700 -> Dark Red -> Bright Red -> Dark Red -> Neutral-700 */
-         background: linear-gradient(
-            90deg,
-            #dc262680 70%,
-            #ef4444 55%,
-            #ef4444 75%,
-            #dc262680 100%
-          );  
+            /* Gradient: Neutral-900 -> Dark Red -> Bright Red -> Dark Red -> Neutral-900 */
+            background: linear-gradient(
+              90deg, 
+              #1A1a1a 0%, 
+              #8B1A1F 25%, 
+              #ef4444 50%, 
+              #8B1A1F 75%, 
+              #1A1A1A 100%
+            );
+            background-size: 200% 100%;
+            animation: scan-gradient 3.5s linear infinite;
+          }
         `}
         </style>
 
         {/* Top Accent Line - Animated */}
-        <div className="absolute top-0 left-0 w-full h-1.5 animate-scan-line z-20"></div>
+        <div className="absolute top-0 left-0 w-full h-0.5 animate-scan-line opacity-80 z-20"></div>
       </div>
 
       {/* Stats Footer */}
