@@ -132,7 +132,7 @@ const Hero: React.FC = () => {
             {t('hero.badge')}
           </div>
           <h1 className="hero-title text-5xl md:text-8xl font-black leading-tight mb-6 tracking-tight">
-            {t('hero.title')}<span className="inline-block w-3 h-3 bg-primary rounded-full ml-2 align-middle"></span>
+            {t('hero.title')}<span className="inline-block w-4 h-4 md:w-5 md:h-5 bg-primary rounded-full ml-3 relative -bottom-1"></span>
           </h1>
           <p className="hero-subtitle text-xl md:text-2xl text-neutral-200 max-w-2xl mb-12 font-light">
             {t('hero.subtitle')} <br />
@@ -148,7 +148,7 @@ const Hero: React.FC = () => {
               onClick={() => setActiveSegment(item)}
               className={`p-6 text-left transition-all duration-300 relative group overflow-hidden rounded-xl ${activeSegment.id === item.id
                 ? 'bg-neutral-700/80 backdrop-blur-md border-l-4 border-primary'
-                : 'bg-neutral-800/50 backdrop-blur-sm hover:bg-neutral-700/50'
+                : 'bg-neutral-800/60 backdrop-blur-sm hover:bg-neutral-700/60'
                 }`}
             >
               <div className="flex justify-between items-start mb-2">
@@ -156,7 +156,7 @@ const Hero: React.FC = () => {
                 <item.icon className={`w-6 h-6 ${activeSegment.id === item.id ? 'text-white' : 'text-neutral-600 group-hover:text-primary'}`} />
               </div>
               <p className={`text-sm ${activeSegment.id === item.id ? 'text-white/90' : 'text-neutral-500'}`}>
-                {item.subtitle}
+                {t(`equipment.types.${item.id}.subtitle`)}
               </p>
 
 
@@ -165,49 +165,48 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Dynamic Details based on Selection */}
-        <div className="hero-tabs mt-8 flex flex-col md:flex-row gap-6 items-start md:items-center text-sm text-neutral-400 max-w-4xl">
+        <div className="hero-tabs mt-24 flex flex-col md:flex-row gap-6 items-start md:items-center text-lg text-neutral-400 max-w-4xl">
           <div className="flex items-center gap-2">
-            <CheckCircle2 size={16} className="text-primary" />
-            <span>{t('hero.perfectFor')}: <span className="text-white font-medium">{activeSegment.idealFor[0]}</span></span>
+            <CheckCircle2 size={32} className="text-primary" />
+            <span className="text-white font-medium">{t(`equipment.types.${activeSegment.id}.idealFor.0`)}</span>
           </div>
           <div className="flex items-center gap-2">
-            <CheckCircle2 size={16} className="text-primary" />
-            <span>{t('hero.volume')}: <span className="text-white font-mono">{activeSegment.volume}</span></span>
+            <CheckCircle2 size={32} className="text-primary" />
+            <span>{t('hero.volume')} <span className="text-white font-mono">{activeSegment.volume}</span></span>
           </div>
           <a href="#contact" className="ml-auto flex items-center gap-2 text-white font-bold uppercase tracking-wider hover:text-primary transition-colors group">
-            {t('hero.checkAvailability')} <ArrowDown size={16} className="group-hover:translate-y-1 transition-transform" />
+            {t('hero.checkAvailability')} <ArrowDown size={32} className="group-hover:translate-y-2 transition-transform" />
           </a>
         </div>
       </div>
-      <div className="bg-neutral-900 h-2 relative overflow-hidden">
-        <style>
-          {`
-          @keyframes scan-gradient {
-            0% { background-position: 100% 0; }
-            100% { background-position: -100% 0; }
-          }
-          .animate-scan-line {
-            /* Gradient: Neutral-900 -> Dark Red -> Bright Red -> Dark Red -> Neutral-900 */
-            background: linear-gradient(
-              90deg, 
-              #1A1a1a 0%, 
-              #8B1A1F 25%, 
-              #ef4444 50%, 
-              #8B1A1F 75%, 
-              #1A1A1A 100%
-            );
-            background-size: 200% 100%;
-            animation: scan-gradient 3.5s linear infinite;
-          }
-        `}
-        </style>
 
-        {/* Top Accent Line - Animated */}
-        <div className="absolute top-0 left-0 w-full h-0.5 animate-scan-line opacity-80 z-20"></div>
-      </div>
+      {/* Accent Line - Animated */}
+      <style>
+        {`
+        @keyframes scan-gradient {
+          0% { background-position: 100% 0; }
+          100% { background-position: -100% 0; }
+        }
+        .animate-scan-line {
+          /* Gradient: Neutral-900 -> Dark Red -> Bright Red -> Dark Red -> Neutral-900 */
+          background: linear-gradient(
+            90deg, 
+            #1A1a1a 0%, 
+            #8B1A1F 25%, 
+            #ef4444 50%, 
+            #8B1A1F 75%, 
+            #1A1A1A 100%
+          );
+          background-size: 200% 100%;
+          animation: scan-gradient 3.5s linear infinite;
+        }
+      `}
+      </style>
 
       {/* Stats Footer */}
-      <div className="backdrop-blur md:mt-auto relative z-10 bg-neutral-900/60">
+      <div className="backdrop-blur md:mt-auto relative z-10 bg-neutral-900/60 shadow-2xl">
+        {/* Top Accent Line */}
+        <div className="absolute top-0 left-0 w-full h-0.5 animate-scan-line opacity-80 z-20"></div>
 
         <div className="container mx-auto px-12 md:px-8 pt-8 pb-8 relative z-10">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8">

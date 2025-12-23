@@ -19,7 +19,7 @@
     "title": "MEZINÁRODNÍ KAMIONOVÁ DOPRAVA",
     "subtitle": "Standard, Mega a Bulk přeprava po Evropě.",
     "subtitleLine2": "Vlastní vozový park. Pravidelné linky.",
-    "perfectFor": "Vhodné pro",
+    "perfectFor": "",
     "volume": "Objem",
     "checkAvailability": "Zjistit volné kapacity"
   },
@@ -30,7 +30,7 @@
     "volume": "Objem",
     "payload": "Nosnost",
     "height": "Výška",
-    "idealFor": "Vhodné pro",
+    "idealFor": "",
     "requestRate": "Poptávka",
     "types": {
       "standard": {

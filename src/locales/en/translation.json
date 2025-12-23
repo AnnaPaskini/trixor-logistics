@@ -19,8 +19,8 @@
     "title": "INTERNATIONAL ROAD FREIGHT",
     "subtitle": "Standard, Mega & Bulk transport across Europe.",
     "subtitleLine2": "Own fleet. Fixed routes.",
-    "perfectFor": "Best for",
-    "volume": "Volume",
+    "perfectFor": "Best for:",
+    "volume": "Volume:",
     "checkAvailability": "Check availability"
   },
   "equipment": {
@@ -51,9 +51,9 @@
     }
   },
   "lanes": {
-    "badge": "Route Network",
-    "title": "DENSE TRANSPORT NETWORK",
-    "desc": "We don't go everywhere — we go where we're strongest. Our fleet runs high-frequency shuttles between key industrial hubs in Central Europe.",
+    "badge": "Our Network",
+    "title": "HIGH-FREQUENCY ROUTE NETWORK",
+    "desc": "We don't go everywhere — we go where we're strongest. Our fleet runs regular shuttles between key industrial hubs in Central Europe.",
     "legend": "Active routes",
     "frequencies": {
       "daily": "Daily",
@@ -63,12 +63,12 @@
     "features": {
       "roundTrip": {
         "title": "ROUND-TRIP OPERATIONS",
-        "desc": "Our trucks run continuous loops, ensuring capacity availability for both export and import legs."
-      },
+        "desc": "Continuous loops ensure capacity for both export and import legs."
+    },
       "justInTime": {
-        "title": "JUST-IN-TIME READY",
-        "desc": "Short transit times and double-manned crews available on DE-CZ lanes."
-      }
+        "title": "JUST-IN-TIME DELIVERY",
+        "desc": "Short transit times with two-driver crews on DE-CZ lanes."
+    }
     }
   },
   "services": {

@@ -8,7 +8,9 @@ import ScrollReveal from './ScrollReveal';
 const Equipment: React.FC = () => {
   const { t } = useTranslation();
   return (
-    <section id="equipment" className="py-12 bg-neutral-300 scroll-mt-32">
+    <section id="equipment" className="py-12 bg-neutral-300 scroll-mt-32 relative">
+      <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-5"></div>
+      
       <ScrollReveal>
         <div className="container mx-auto px-4 md:px-8">
           <div className="mb-16 max-w-2xl">
