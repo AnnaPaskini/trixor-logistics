@@ -1,0 +1,256 @@
+{
+  "nav": {
+    "equipment": "Technika",
+    "lanes": "Trasy",
+    "fleet": "Vozový park",
+    "careers": "Kariéra",
+    "contact": "Kontakt",
+    "requestRate": "Poptávka"
+  },
+  "about": {
+    "title": "O nás",
+    "intro": "Jsme evropský dopravce <strong>s vlastním vozovým parkem</strong> na pravidelných kyvadlových linkách. Žádní zprostředkovatelé, žádní subdodavatelé — jen <strong>vlastní kapacity</strong> a <strong>spolehlivý servis</strong> po celé střední Evropě.",
+    "history": "Trixor vznikl v roce 2015. Z jednoho kamionu jsme vyrostli v moderní firmu, která obsluhuje klíčové klienty z automotive a výrobního průmyslu. Náš princip je jednoduchý: jezdíme na svém.",
+    "quote": "Každý kamion v naší flotile nese mé jméno. Když slíbím dodávku, není to slib zprostředkovatele — je to můj osobní slib. Proto s námi klienti zůstávají roky.",
+    "quoteAuthor": "Yuri Diakonu, zakladatel a CEO"
+  },
+  "hero": {
+    "badge": "Evropský dopravce s vlastním vozovým parkem",
+    "title": "MEZINÁRODNÍ KAMIONOVÁ DOPRAVA",
+    "subtitle": "Standard, Mega a Bulk přeprava po Evropě.",
+    "subtitleLine2": "Vlastní vozový park. Pravidelné linky.",
+    "perfectFor": "Vhodné pro",
+    "volume": "Objem",
+    "checkAvailability": "Zjistit volné kapacity"
+  },
+  "equipment": {
+    "sectionLabel": "Technika",
+    "sectionTitle": "VOZOVÝ PARK",
+    "sectionDesc": "Moderní sjednocený vozový park pro konkrétní potřeby. Vyberte techniku podle vašeho nákladu.",
+    "volume": "Objem",
+    "payload": "Nosnost",
+    "height": "Výška",
+    "idealFor": "Vhodné pro",
+    "requestRate": "Poptávka",
+    "types": {
+      "standard": {
+        "name": "STANDARD",
+        "subtitle": "Plachtový návěs",
+        "idealFor": ["Paletový náklad", "Průmyslové zboží", "Kusové zásilky"]
+      },
+      "mega": {
+        "name": "MEGA",
+        "subtitle": "Nízkoložný návěs",
+        "idealFor": ["Autodíly", "Objemný náklad", "Vysoké stroje"]
+      },
+      "bulk": {
+        "name": "BULK",
+        "subtitle": "Návěs s pohyblivou podlahou",
+        "idealFor": ["Biomasa a dřevo", "Sypký materiál", "Recykláty"]
+      }
+    }
+  },
+  "lanes": {
+    "badge": "Síť tras",
+    "title": "HUSTÁ SÍŤ PŘEPRAV",
+    "desc": "Nejezdíme všude — jezdíme tam, kde jsme silní. Náš vozový park operuje na pravidelných linkách mezi klíčovými průmyslovými centry střední Evropy.",
+    "legend": "Aktivní trasy",
+    "frequencies": {
+      "daily": "Denně",
+      "3xWeekly": "3× týdně",
+      "2xWeekly": "2× týdně"
+    },
+    "features": {
+      "roundTrip": {
+        "title": "KYVADLOVÁ DOPRAVA",
+        "desc": "Naše vozidla jezdí v okruzích — vždy máme volné kapacity na export i import."
+      },
+      "justInTime": {
+        "title": "JUST-IN-TIME",
+        "desc": "Krátké přepravní časy a posádky ve dvojici na trasách DE-CZ."
+      }
+    }
+  },
+  "services": {
+    "label": "Další služby:",
+    "warehousing": "Sklad",
+    "customs": "Celní služby",
+    "insurance": "Pojištění CMR",
+    "crossdocking": "Cross-docking"
+  },
+  "trustStrip": {
+    "ownFleet": {
+      "title": "VLASTNÍ FLOTILA",
+      "desc": "55+ vozidel. Bez prostředníků."
+    },
+    "tracking": {
+      "title": "GPS SLEDOVÁNÍ",
+      "desc": "Každé vozidlo online."
+    },
+    "dispatch": {
+      "title": "DISPEČINK 24/7",
+      "desc": "Vždy na příjmu."
+    },
+    "reliable": {
+      "title": "VČAS",
+      "desc": "99 % dodávek na čas."
+    }
+  },
+  "contact": {
+    "sectionLabel": "Volné kapacity",
+    "sectionTitle": "ZJISTĚTE DOSTUPNOST NA VAŠÍ TRASE",
+    "sectionDesc": "Zadejte trasu a typ nákladu. Dispečink odpoví do 2 hodin s informací o volných vozidlech a cenách.",
+    "benefits": {
+      "response": "Odpověď do 2 hodin",
+      "directFleet": "Vlastní flotila = jistota kapacity",
+      "pricing": "Transparentní ceny"
+    },
+    "form": {
+      "loading": "Odkud",
+      "loadingPlaceholder": "např. Praha",
+      "unloading": "Kam",
+      "unloadingPlaceholder": "např. Berlín",
+      "cargoType": "Typ nákladu",
+      "weight": "Váha (t)",
+      "weightPlaceholder": "24",
+      "email": "Email",
+      "emailPlaceholder": "jmeno@firma.cz",
+      "submit": "Odeslat poptávku",
+      "sending": "Odesílám..."
+    },
+    "cargoTypes": {
+      "standard": "Standard",
+      "mega": "Mega",
+      "bulk": "Bulk"
+    },
+    "success": {
+      "title": "Poptávka přijata!",
+      "message": "Dispečink ověřuje dostupnost na trase <strong>{{from}}</strong> → <strong>{{to}}</strong>. Odpověď pošleme na <strong>{{email}}</strong> do 2 hodin.",
+      "another": "Nová poptávka"
+    }
+  },
+  "fleet": {
+    "sectionLabel": "Galerie",
+    "sectionTitle": "VOZOVÝ PARK V AKCI",
+    "sectionDesc": "55+ vozidel pod naší správou. Na hlavních trasách pouze vlastní technika.",
+    "images": {
+      "warehouse": { "title": "Sklad Trixor", "desc": "Moderní terminál" },
+      "fleet": { "title": "Vozový park", "desc": "Připraven k výjezdu" },
+      "mechanics": { "title": "Mechanici", "desc": "Vlastní servis" },
+      "team": { "title": "Tým", "desc": "Profesionálové" }
+    }
+  },
+  "cta": {
+    "trustedBy": "Důvěřují nám"
+  },
+  "footer": {
+    "company": {
+      "name": "TRIXOR LOGISTICS s.r.o.",
+      "type": "Mezinárodní kamionová doprava",
+      "country": "Česká republika",
+      "desc": "Přeprava vlastním vozovým parkem na pravidelných evropských trasách."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "dispatch": "Dispečink (24/7)"
+    },
+    "equipment": {
+      "title": "Technika",
+      "standard": "Plachtový standard",
+      "mega": "Mega nízkoložný",
+      "bulk": "Walking Floor"
+    },
+    "legal": {
+      "title": "Dokumenty",
+      "terms": "Obchodní podmínky",
+      "privacy": "Ochrana soukromí",
+      "gdpr": "GDPR",
+      "rules": "Vnitřní předpisy"
+    },
+    "copyright": "© 2025 Trixor Logistics s.r.o. | IČO: XXXXXXXX"
+  },
+  "stats": {
+    "fleetUnits": { "value": "55+", "label": "Vozidel", "subLabel": "Vlastní flotila" },
+    "walkingFloors": { "value": "10", "label": "Walking Floor", "subLabel": "Speciální technika" },
+    "shipments": { "value": "1M+", "label": "Zásilek", "subLabel": "Doručeno" },
+    "onTime": { "value": "99%", "label": "Včas", "subLabel": "Dodávek" },
+    "dispatch": { "value": "24/7", "label": "Na příjmu", "subLabel": "Dispečink" }
+  },
+  "marquee": {
+    "items": [
+      "Spolehlivá flotila",
+      "Vždy včas",
+      "Vlastní vozidla",
+      "Pobočka v Polsku",
+      "Celá Evropa",
+      "Podpora 24/7",
+      "Pobočka na Slovensku",
+      "Bez prostředníků",
+      "Centrála v Praze"
+    ]
+  },
+  "vacancies": {
+    "sectionLabel": "Kariéra",
+    "sectionTitle": "PRÁCE V TRIXORU",
+    "sectionDesc": "Hledáme profesionály do rostoucího týmu. Řidiči, mechanici, dispečeři — nabízíme stabilitu, férové peníze a moderní techniku.",
+    "teamMembers": "Lidí v týmu",
+    "modernFleet": "Moderní flotila",
+    "applyNow": "Mám zájem",
+    "jobs": {
+      "driver": {
+        "title": "Řidič mezinárodní dopravy",
+        "location": "ČR / EU",
+        "type": "Plný úvazek",
+        "salary": "Od 65 000 Kč/měs",
+        "requirements": ["Řidičák CE", "Praxe min. 2 roky", "Karta tachografu", "Pracovní povolení EU"]
+      },
+      "mechanic": {
+        "title": "Mechanik",
+        "location": "Praha",
+        "type": "Plný úvazek",
+        "salary": "Od 55 000 Kč/měs",
+        "requirements": ["Zkušenosti s náklaďáky", "Znalost diagnostiky", "Svářečský průkaz výhodou", "Řidičák B (C výhodou)"]
+      },
+      "dispatcher": {
+        "title": "Dispečer",
+        "location": "Praha",
+        "type": "Plný úvazek",
+        "salary": "Od 50 000 Kč/měs",
+        "requirements": ["Angličtina + němčina/ruština", "Praxe v logistice", "Komunikativnost", "Flexibilní pracovní doba"]
+      }
+    },
+    "form": {
+      "title": "PŘIDEJ SE K NÁM",
+      "desc": "Vyplň formulář nebo kontaktuj HR přímo. Přihlášky vyhodnocujeme průběžně.",
+      "sendCv": "CV pošli na",
+      "callHr": "Zavolej HR",
+      "fullName": "Jméno",
+      "namePlaceholder": "Jan Novák",
+      "emailAddress": "Email",
+      "phone": "Telefon",
+      "phonePlaceholder": "+420 123 456 789",
+      "position": "Pozice",
+      "message": "Zpráva / odkaz na CV",
+      "messagePlaceholder": "Pár slov o zkušenostech nebo odkaz na LinkedIn...",
+      "submit": "Odeslat",
+      "requirements": "Požadavky"
+    },
+    "success": {
+      "title": "PŘIHLÁŠKA ODESLÁNA",
+      "message": "Díky za zájem o Trixor. HR se podívá na tvou přihlášku na pozici <strong>{{position}}</strong> a ozve se ti.",
+      "another": "Další přihláška"
+    },
+    "vacancyPage": {
+      "backToCareers": "← Zpět na kariéru",
+      "applyTitle": "Přihlásit se",
+      "formSubtitle": "Vyplň formulář a ozveme se ti.",
+      "name": "Jméno",
+      "phone": "Telefon",
+      "email": "Email",
+      "message": "Zpráva",
+      "messagePlaceholder": "Napiš o svých zkušenostech...",
+      "submit": "ODESLAT PŘIHLÁŠKU",
+      "orContact": "Nebo nám napiš přímo:"
+    }
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "nav": {
+    "equipment": "Equipment",
+    "lanes": "Routes",
+    "fleet": "Fleet",
+    "careers": "Careers",
+    "contact": "Contact",
+    "requestRate": "Get Quote"
+  },
+  "about": {
+    "title": "About Us",
+    "intro": "We're an <strong>asset-based</strong> European carrier on fixed shuttle routes. No brokers, no subcontractors — just <strong>our own capacity</strong> and <strong>reliable service</strong> across Central Europe.",
+    "history": "Trixor started in 2015 with one truck. Today we run a modern fleet serving top automotive and manufacturing clients. Our edge is simple: we own what we operate.",
+    "quote": "Every truck in our fleet carries my name. When I promise a delivery, it's not a broker's word — it's mine. That's why clients stay with us for years.",
+    "quoteAuthor": "Yuri Diakonu, Founder & CEO"
+  },
+  "hero": {
+    "badge": "Asset-Based European Carrier",
+    "title": "INTERNATIONAL ROAD FREIGHT",
+    "subtitle": "Standard, Mega & Bulk transport across Europe.",
+    "subtitleLine2": "Own fleet. Fixed routes.",
+    "perfectFor": "Best for",
+    "volume": "Volume",
+    "checkAvailability": "Check availability"
+  },
+  "equipment": {
+    "sectionLabel": "Equipment",
+    "sectionTitle": "OUR FLEET",
+    "sectionDesc": "Modern, unified fleet for your specific needs. Pick the right equipment for your cargo.",
+    "volume": "Volume",
+    "payload": "Payload",
+    "height": "Height",
+    "idealFor": "Best for",
+    "requestRate": "Get Quote",
+    "types": {
+      "standard": {
+        "name": "STANDARD",
+        "subtitle": "Curtain-Sided Trailer",
+        "idealFor": ["Palletized cargo", "Industrial goods", "General freight"]
+      },
+      "mega": {
+        "name": "MEGA",
+        "subtitle": "Low-Deck Trailer",
+        "idealFor": ["Auto parts", "Volume cargo", "Tall machinery"]
+      },
+      "bulk": {
+        "name": "BULK",
+        "subtitle": "Walking Floor Trailer",
+        "idealFor": ["Biomass & wood", "Loose bulk", "Recyclables"]
+      }
+    }
+  },
+  "lanes": {
+    "badge": "Route Network",
+    "title": "DENSE TRANSPORT NETWORK",
+    "desc": "We don't go everywhere — we go where we're strongest. Our fleet runs high-frequency shuttles between key industrial hubs in Central Europe.",
+    "legend": "Active routes",
+    "frequencies": {
+      "daily": "Daily",
+      "3xWeekly": "3× weekly",
+      "2xWeekly": "2× weekly"
+    },
+    "features": {
+      "roundTrip": {
+        "title": "ROUND-TRIP OPERATIONS",
+        "desc": "Our trucks run continuous loops, ensuring capacity availability for both export and import legs."
+      },
+      "justInTime": {
+        "title": "JUST-IN-TIME READY",
+        "desc": "Short transit times and double-manned crews available on DE-CZ lanes."
+      }
+    }
+  },
+  "services": {
+    "label": "Also available:",
+    "warehousing": "Warehousing",
+    "customs": "Customs",
+    "insurance": "CMR Insurance",
+    "crossdocking": "Cross-docking"
+  },
+  "trustStrip": {
+    "ownFleet": {
+      "title": "OWN FLEET",
+      "desc": "55+ trucks. No middlemen."
+    },
+    "tracking": {
+      "title": "GPS TRACKING",
+      "desc": "Every unit tracked live."
+    },
+    "dispatch": {
+      "title": "24/7 DISPATCH",
+      "desc": "Always reachable."
+    },
+    "reliable": {
+      "title": "ON TIME",
+      "desc": "99% delivered on schedule."
+    }
+  },
+  "contact": {
+    "sectionLabel": "Availability",
+    "sectionTitle": "CHECK CAPACITY ON YOUR ROUTE",
+    "sectionDesc": "Enter your route and cargo type. Our dispatch responds within 2 hours with availability and rates.",
+    "benefits": {
+      "response": "Response in 2 hours",
+      "directFleet": "Own fleet = guaranteed capacity",
+      "pricing": "Transparent pricing"
+    },
+    "form": {
+      "loading": "From",
+      "loadingPlaceholder": "e.g. Prague, CZ",
+      "unloading": "To",
+      "unloadingPlaceholder": "e.g. Berlin, DE",
+      "cargoType": "Cargo type",
+      "weight": "Weight (t)",
+      "weightPlaceholder": "24",
+      "email": "Email",
+      "emailPlaceholder": "name@company.com",
+      "submit": "Send request",
+      "sending": "Sending..."
+    },
+    "cargoTypes": {
+      "standard": "Standard",
+      "mega": "Mega",
+      "bulk": "Bulk"
+    },
+    "success": {
+      "title": "Request received!",
+      "message": "Dispatch is checking availability for <strong>{{from}}</strong> → <strong>{{to}}</strong>. Expect a reply at <strong>{{email}}</strong> within 2 hours.",
+      "another": "New request"
+    }
+  },
+  "fleet": {
+    "sectionLabel": "Gallery",
+    "sectionTitle": "FLEET IN ACTION",
+    "sectionDesc": "55+ units under our direct control. Core routes — own trucks only.",
+    "images": {
+      "warehouse": { "title": "Trixor Warehouse", "desc": "Modern terminal" },
+      "fleet": { "title": "Our Fleet", "desc": "Ready to roll" },
+      "mechanics": { "title": "Workshop", "desc": "In-house service" },
+      "team": { "title": "Our Team", "desc": "Dedicated pros" }
+    }
+  },
+  "cta": {
+    "trustedBy": "Trusted by"
+  },
+  "footer": {
+    "company": {
+      "name": "TRIXOR LOGISTICS s.r.o.",
+      "type": "International Road Freight",
+      "country": "Czech Republic",
+      "desc": "Own-fleet transport on fixed European routes."
+    },
+    "contact": {
+      "title": "Contact",
+      "dispatch": "Dispatch (24/7)"
+    },
+    "equipment": {
+      "title": "Equipment",
+      "standard": "Standard Curtain",
+      "mega": "Mega Low-Deck",
+      "bulk": "Walking Floor"
+    },
+    "legal": {
+      "title": "Legal",
+      "terms": "Terms",
+      "privacy": "Privacy",
+      "gdpr": "GDPR",
+      "rules": "Internal Rules"
+    },
+    "copyright": "© 2025 Trixor Logistics s.r.o. | IČO: XXXXXXXX"
+  },
+  "stats": {
+    "fleetUnits": { "value": "55+", "label": "Trucks", "subLabel": "Own fleet" },
+    "walkingFloors": { "value": "10", "label": "Walking Floors", "subLabel": "Specialized" },
+    "shipments": { "value": "1M+", "label": "Shipments", "subLabel": "Delivered" },
+    "onTime": { "value": "99%", "label": "On Time", "subLabel": "Deliveries" },
+    "dispatch": { "value": "24/7", "label": "Reachable", "subLabel": "Dispatch" }
+  },
+  "marquee": {
+    "items": [
+      "Reliable fleet",
+      "Always on time",
+      "Own trucks",
+      "Office in Poland",
+      "All of Europe",
+      "24/7 support",
+      "Office in Slovakia",
+      "No middlemen",
+      "HQ in Prague"
+    ]
+  },
+  "vacancies": {
+    "sectionLabel": "Careers",
+    "sectionTitle": "JOIN TRIXOR",
+    "sectionDesc": "Looking for pros to grow with us. Drivers, mechanics, dispatchers — we offer stability, fair pay, and modern equipment.",
+    "teamMembers": "Team members",
+    "modernFleet": "Modern fleet",
+    "applyNow": "Apply",
+    "jobs": {
+      "driver": {
+        "title": "International Driver",
+        "location": "Czech Republic / EU",
+        "type": "Full-time",
+        "salary": "From 65,000 CZK/mo",
+        "requirements": ["CE license", "2+ years experience", "Tacho card", "EU work permit"]
+      },
+      "mechanic": {
+        "title": "Fleet Mechanic",
+        "location": "Prague",
+        "type": "Full-time",
+        "salary": "From 55,000 CZK/mo",
+        "requirements": ["Truck experience", "Diagnostics skills", "Welding a plus", "License B (C a plus)"]
+      },
+      "dispatcher": {
+        "title": "Dispatcher",
+        "location": "Prague",
+        "type": "Full-time",
+        "salary": "From 50,000 CZK/mo",
+        "requirements": ["English + German/Russian", "Logistics experience", "Communication skills", "Flexible hours"]
+      }
+    },
+    "form": {
+      "title": "JOIN THE TEAM",
+      "desc": "Fill out the form or contact HR directly. We review applications on a rolling basis.",
+      "sendCv": "Send CV to",
+      "callHr": "Call HR",
+      "fullName": "Name",
+      "namePlaceholder": "John Smith",
+      "emailAddress": "Email",
+      "phone": "Phone",
+      "phonePlaceholder": "+420 123 456 789",
+      "position": "Position",
+      "message": "Message / CV link",
+      "messagePlaceholder": "Brief intro or link to LinkedIn...",
+      "submit": "Submit",
+      "requirements": "Requirements"
+    },
+    "success": {
+      "title": "APPLICATION SENT",
+      "message": "Thanks for your interest in Trixor. HR will review your application for <strong>{{position}}</strong> and get back to you.",
+      "another": "Another application"
+    },
+    "vacancyPage": {
+      "backToCareers": "← Back to Careers",
+      "applyTitle": "Apply Now",
+      "formSubtitle": "Fill out the form and we will get back to you shortly.",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your experience...",
+      "submit": "SEND APPLICATION",
+      "orContact": "Or contact us directly:"
+    }
+  }
+}

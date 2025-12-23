@@ -1,0 +1,256 @@
+{
+  "nav": {
+    "equipment": "Fuhrpark",
+    "lanes": "Routen",
+    "fleet": "Flotte",
+    "careers": "Karriere",
+    "contact": "Kontakt",
+    "requestRate": "Anfrage"
+  },
+  "about": {
+    "title": "Über uns",
+    "intro": "Wir sind ein europäischer Spediteur <strong>mit eigener Flotte</strong> auf festen Pendelrouten. Keine Makler, keine Subunternehmer — nur <strong>eigene Kapazitäten</strong> und <strong>zuverlässiger Service</strong> in ganz Mitteleuropa.",
+    "history": "Trixor wurde 2015 gegründet. Aus einem LKW ist eine moderne Spedition geworden, die führende Kunden aus Automotive und Industrie bedient. Unser Prinzip: Wir fahren mit eigenem Equipment.",
+    "quote": "Jeder LKW in unserer Flotte trägt meinen Namen. Wenn ich eine Lieferung verspreche, ist das kein Maklerversprechen — das ist mein persönliches Wort. Deshalb bleiben Kunden jahrelang bei uns.",
+    "quoteAuthor": "Yuri Diakonu, Gründer & CEO"
+  },
+  "hero": {
+    "badge": "Europäischer Spediteur mit eigener Flotte",
+    "title": "INTERNATIONALE SPEDITION",
+    "subtitle": "Standard-, Mega- und Schüttguttransporte in Europa.",
+    "subtitleLine2": "Eigene Flotte. Feste Routen.",
+    "perfectFor": "Geeignet für",
+    "volume": "Volumen",
+    "checkAvailability": "Verfügbarkeit prüfen"
+  },
+  "equipment": {
+    "sectionLabel": "Fuhrpark",
+    "sectionTitle": "UNSERE FAHRZEUGE",
+    "sectionDesc": "Moderner, einheitlicher Fuhrpark für Ihre Anforderungen. Wählen Sie die passende Technik für Ihre Ladung.",
+    "volume": "Volumen",
+    "payload": "Nutzlast",
+    "height": "Höhe",
+    "idealFor": "Geeignet für",
+    "requestRate": "Anfrage",
+    "types": {
+      "standard": {
+        "name": "STANDARD",
+        "subtitle": "Planenauflieger",
+        "idealFor": ["Palettengut", "Industriewaren", "Stückgut"]
+      },
+      "mega": {
+        "name": "MEGA",
+        "subtitle": "Tiefbett-Auflieger",
+        "idealFor": ["Autoteile", "Volumengut", "Hohe Maschinen"]
+      },
+      "bulk": {
+        "name": "BULK",
+        "subtitle": "Schubboden-Auflieger",
+        "idealFor": ["Biomasse & Holz", "Schüttgut", "Recyclingmaterial"]
+      }
+    }
+  },
+  "lanes": {
+    "badge": "Routennetz",
+    "title": "DICHTES TRANSPORTNETZ",
+    "desc": "Wir fahren nicht überall — wir fahren dort, wo wir stark sind. Unsere Flotte bedient regelmäßige Linien zwischen den wichtigsten Industriestandorten Mitteleuropas.",
+    "legend": "Aktive Routen",
+    "frequencies": {
+      "daily": "Täglich",
+      "3xWeekly": "3× wöchentlich",
+      "2xWeekly": "2× wöchentlich"
+    },
+    "features": {
+      "roundTrip": {
+        "title": "PENDELVERKEHR",
+        "desc": "Unsere LKW fahren im Rundlauf — immer freie Kapazitäten für Export und Import."
+      },
+      "justInTime": {
+        "title": "JUST-IN-TIME",
+        "desc": "Kurze Laufzeiten und Doppelbesatzung auf DE-CZ Strecken."
+      }
+    }
+  },
+  "services": {
+    "label": "Weitere Services:",
+    "warehousing": "Lager",
+    "customs": "Zollabwicklung",
+    "insurance": "CMR-Versicherung",
+    "crossdocking": "Cross-Docking"
+  },
+  "trustStrip": {
+    "ownFleet": {
+      "title": "EIGENE FLOTTE",
+      "desc": "55+ Fahrzeuge. Keine Mittler."
+    },
+    "tracking": {
+      "title": "GPS-TRACKING",
+      "desc": "Jedes Fahrzeug live."
+    },
+    "dispatch": {
+      "title": "DISPOSITION 24/7",
+      "desc": "Immer erreichbar."
+    },
+    "reliable": {
+      "title": "PÜNKTLICH",
+      "desc": "99 % termingerecht."
+    }
+  },
+  "contact": {
+    "sectionLabel": "Freie Kapazitäten",
+    "sectionTitle": "VERFÜGBARKEIT AUF IHRER ROUTE PRÜFEN",
+    "sectionDesc": "Route und Ladungsart angeben. Unsere Disposition antwortet innerhalb von 2 Stunden mit freien Fahrzeugen und Preisen.",
+    "benefits": {
+      "response": "Antwort in 2 Stunden",
+      "directFleet": "Eigene Flotte = garantierte Kapazität",
+      "pricing": "Transparente Preise"
+    },
+    "form": {
+      "loading": "Von",
+      "loadingPlaceholder": "z.B. Prag",
+      "unloading": "Nach",
+      "unloadingPlaceholder": "z.B. Berlin",
+      "cargoType": "Ladungsart",
+      "weight": "Gewicht (t)",
+      "weightPlaceholder": "24",
+      "email": "E-Mail",
+      "emailPlaceholder": "name@firma.de",
+      "submit": "Anfrage senden",
+      "sending": "Wird gesendet..."
+    },
+    "cargoTypes": {
+      "standard": "Standard",
+      "mega": "Mega",
+      "bulk": "Bulk"
+    },
+    "success": {
+      "title": "Anfrage erhalten!",
+      "message": "Disposition prüft Verfügbarkeit für <strong>{{from}}</strong> → <strong>{{to}}</strong>. Antwort kommt an <strong>{{email}}</strong> innerhalb von 2 Stunden.",
+      "another": "Neue Anfrage"
+    }
+  },
+  "fleet": {
+    "sectionLabel": "Galerie",
+    "sectionTitle": "FLOTTE IM EINSATZ",
+    "sectionDesc": "55+ Fahrzeuge unter eigener Regie. Auf Hauptrouten nur eigene Technik.",
+    "images": {
+      "warehouse": { "title": "Trixor Lager", "desc": "Modernes Terminal" },
+      "fleet": { "title": "Fuhrpark", "desc": "Einsatzbereit" },
+      "mechanics": { "title": "Werkstatt", "desc": "Eigener Service" },
+      "team": { "title": "Team", "desc": "Profis am Werk" }
+    }
+  },
+  "cta": {
+    "trustedBy": "Vertrauen uns"
+  },
+  "footer": {
+    "company": {
+      "name": "TRIXOR LOGISTICS s.r.o.",
+      "type": "Internationale Spedition",
+      "country": "Tschechien",
+      "desc": "Transport mit eigener Flotte auf festen europäischen Routen."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "dispatch": "Disposition (24/7)"
+    },
+    "equipment": {
+      "title": "Fuhrpark",
+      "standard": "Plane Standard",
+      "mega": "Mega Tiefbett",
+      "bulk": "Walking Floor"
+    },
+    "legal": {
+      "title": "Rechtliches",
+      "terms": "AGB",
+      "privacy": "Datenschutz",
+      "gdpr": "DSGVO",
+      "rules": "Betriebsordnung"
+    },
+    "copyright": "© 2025 Trixor Logistics s.r.o. | IČO: XXXXXXXX"
+  },
+  "stats": {
+    "fleetUnits": { "value": "55+", "label": "Fahrzeuge", "subLabel": "Eigene Flotte" },
+    "walkingFloors": { "value": "10", "label": "Walking Floor", "subLabel": "Spezialtechnik" },
+    "shipments": { "value": "1M+", "label": "Sendungen", "subLabel": "Ausgeliefert" },
+    "onTime": { "value": "99%", "label": "Pünktlich", "subLabel": "Lieferungen" },
+    "dispatch": { "value": "24/7", "label": "Erreichbar", "subLabel": "Disposition" }
+  },
+  "marquee": {
+    "items": [
+      "Zuverlässige Flotte",
+      "Immer pünktlich",
+      "Eigene Fahrzeuge",
+      "Büro in Polen",
+      "Ganz Europa",
+      "Support 24/7",
+      "Büro in der Slowakei",
+      "Ohne Mittler",
+      "Zentrale in Prag"
+    ]
+  },
+  "vacancies": {
+    "sectionLabel": "Karriere",
+    "sectionTitle": "JOBS BEI TRIXOR",
+    "sectionDesc": "Wir suchen Profis für unser wachsendes Team. Fahrer, Mechaniker, Disponenten — wir bieten Stabilität, faire Bezahlung und moderne Technik.",
+    "teamMembers": "Mitarbeiter",
+    "modernFleet": "Moderne Flotte",
+    "applyNow": "Bewerben",
+    "jobs": {
+      "driver": {
+        "title": "Fernfahrer",
+        "location": "Tschechien / EU",
+        "type": "Vollzeit",
+        "salary": "Ab 65.000 CZK/Monat",
+        "requirements": ["Führerschein CE", "Mind. 2 Jahre Erfahrung", "Fahrerkarte", "EU-Arbeitserlaubnis"]
+      },
+      "mechanic": {
+        "title": "KFZ-Mechaniker",
+        "location": "Prag",
+        "type": "Vollzeit",
+        "salary": "Ab 55.000 CZK/Monat",
+        "requirements": ["Erfahrung mit LKW", "Diagnose-Kenntnisse", "Schweißen von Vorteil", "Führerschein B (C von Vorteil)"]
+      },
+      "dispatcher": {
+        "title": "Disponent",
+        "location": "Prag",
+        "type": "Vollzeit",
+        "salary": "Ab 50.000 CZK/Monat",
+        "requirements": ["Englisch + Deutsch/Russisch", "Logistik-Erfahrung", "Kommunikationsstärke", "Flexible Arbeitszeiten"]
+      }
+    },
+    "form": {
+      "title": "WERDE TEIL DES TEAMS",
+      "desc": "Formular ausfüllen oder HR direkt kontaktieren. Bewerbungen werden laufend geprüft.",
+      "sendCv": "Lebenslauf an",
+      "callHr": "HR anrufen",
+      "fullName": "Name",
+      "namePlaceholder": "Max Mustermann",
+      "emailAddress": "E-Mail",
+      "phone": "Telefon",
+      "phonePlaceholder": "+420 123 456 789",
+      "position": "Stelle",
+      "message": "Nachricht / Link zum CV",
+      "messagePlaceholder": "Kurz zur Erfahrung oder Link zu LinkedIn...",
+      "submit": "Absenden",
+      "requirements": "Anforderungen"
+    },
+    "success": {
+      "title": "BEWERBUNG GESENDET",
+      "message": "Danke für Ihr Interesse an Trixor. HR prüft Ihre Bewerbung für <strong>{{position}}</strong> und meldet sich.",
+      "another": "Weitere Bewerbung"
+    },
+    "vacancyPage": {
+      "backToCareers": "← Zurück zu Karriere",
+      "applyTitle": "Jetzt bewerben",
+      "formSubtitle": "Formular ausfüllen und wir melden uns.",
+      "name": "Name",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "messagePlaceholder": "Erzählen Sie von Ihrer Erfahrung...",
+      "submit": "BEWERBUNG SENDEN",
+      "orContact": "Oder direkt kontaktieren:"
+    }
+  }
+}
