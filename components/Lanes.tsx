@@ -190,6 +190,7 @@ const Lanes: React.FC = () => {
                 {t('lanes.desc')}
               </p>
 
+              <div className="w-full">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
                 <div className="p-4 bg-neutral-800 border-l-4 border-primary rounded-r">
                   <h4 className="font-bold text-white uppercase tracking-wider text-sm">{t('lanes.features.roundTrip.title')}</h4>
@@ -200,10 +201,11 @@ const Lanes: React.FC = () => {
                   <p className="text-xs text-neutral-500 mt-1">{t('lanes.features.justInTime.desc')}</p>
                 </div>
               </div>
+              </div>
             </div>
 
             {/* THE MAP */}
-            <div className="w-full max-w-5xl aspect-[4/3] bg-[#0A0A0A] rounded-xl overflow-hidden relative shadow-2xl border border-neutral-800 group mx-auto">
+            <div className="w-full md:max-w-5xl aspect-[4/3] bg-[#0A0A0A] md:rounded-xl overflow-hidden relative shadow-2xl md:border border-neutral-800 group -mx-4 md:mx-auto">
 
               {/* Vignette Overlay for Fade Effect at Edges - MUCH LARGER NOW */}
               <div

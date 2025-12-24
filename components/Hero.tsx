@@ -141,7 +141,8 @@ const Hero: React.FC = () => {
         </div>
 
         {/* UX Segmentation Tabs */}
-        <div className="hero-tabs grid grid-cols-1 md:grid-cols-3 gap-2 max-w-4xl">
+        <div className="hero-tabs w-full md:max-w-4xl">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
           {EQUIPMENT_DATA.map((item) => (
             <button
               key={item.id}
@@ -163,9 +164,11 @@ const Hero: React.FC = () => {
             </button>
           ))}
         </div>
+        </div>
 
         {/* Dynamic Details based on Selection */}
-        <div className="hero-tabs mt-24 flex flex-col md:flex-row gap-6 items-start md:items-center text-lg text-neutral-400 max-w-4xl">
+        <div className="hero-tabs mt-12 md:mt-24 w-full md:max-w-4xl">
+        <div className="flex flex-col md:flex-row gap-6 items-start md:items-center text-lg text-neutral-400">
           <div className="flex items-center gap-2">
             <CheckCircle2 size={32} className="text-primary" />
             <span className="text-white font-medium">{t(`equipment.types.${activeSegment.id}.idealFor.0`)}</span>
@@ -174,9 +177,10 @@ const Hero: React.FC = () => {
             <CheckCircle2 size={32} className="text-primary" />
             <span>{t('hero.volume')} <span className="text-white font-mono">{activeSegment.volume}</span></span>
           </div>
-          <a href="#contact" className="ml-auto flex items-center gap-2 text-white font-bold uppercase tracking-wider hover:text-primary transition-colors group">
+          <a href="#contact" className="md:ml-auto flex items-center gap-2 text-white font-bold uppercase tracking-wider hover:text-primary transition-colors group">
             {t('hero.checkAvailability')} <ArrowDown size={32} className="group-hover:translate-y-2 transition-transform" />
           </a>
+        </div>
         </div>
       </div>
 
