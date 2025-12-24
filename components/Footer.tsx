@@ -2,18 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 const Footer: React.FC = () => {
-  const { i18n, t } = useTranslation();
-
-  const languages = [
-    { code: 'en', label: 'EN', flag: 'gb' },
-    { code: 'cs', label: 'CS', flag: 'cz' },
-    { code: 'ru', label: 'RU', flag: 'ru' },
-    { code: 'de', label: 'DE', flag: 'de' },
-  ];
-
-  const changeLanguage = (langCode: string) => {
-    i18n.changeLanguage(langCode);
-  };
+  const { t } = useTranslation();
 
   return (
     <footer className="bg-neutral-900 text-neutral-400 py-16 border-t border-neutral-800 text-sm relative overflow-hidden">
@@ -88,29 +77,8 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 md:px-8 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-white transition-color relative z-10">
+      <div className="container mx-auto px-4 md:px-8 pt-8 mt-8 text-center text-xs text-white transition-color relative z-10">
         <p>{t('footer.copyright')}</p>
-        <div className="flex gap-2">
-          {languages.map((lang) => (
-            <button
-              key={lang.code}
-              onClick={() => changeLanguage(lang.code)}
-              className={`relative cursor-pointer transition-all p-2 rounded ${
-                i18n.language === lang.code
-                  ? 'bg-primary ring-2 ring-primary/50'
-                  : 'hover:opacity-80'
-              }`}
-            >
-              <img 
-                src={`https://flagcdn.com/w20/${lang.flag}.png`}
-                srcSet={`https://flagcdn.com/w40/${lang.flag}.png 2x`}
-                width="20"
-                alt={lang.label}
-                className="rounded-sm"
-              />
-            </button>
-          ))}
-        </div>
       </div>
     </footer>
   );
