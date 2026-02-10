@@ -1,0 +1,35 @@
+[
+  {
+    "id": "standard",
+    "name": "STANDARD",
+    "subtitle": "Curtain-Sided Trailer",
+    "volume": "90 m³",
+    "payload": "24 t",
+    "height": "2.7 m",
+    "features": ["13.6m Length", "Side/Roof Loading", "XL Certificate"],
+    "idealFor": ["Palletized cargo", "Industrial goods", "General freight"],
+    "icon": "Box"
+  },
+  {
+    "id": "mega",
+    "name": "MEGA",
+    "subtitle": "Low-Deck Trailer",
+    "volume": "100 m³",
+    "payload": "24 t",
+    "height": "3.0 m",
+    "features": ["13.6m Length", "Lifting Roof", "Automotive Spec"],
+    "idealFor": ["Automotive parts", "Volume cargo", "Tall machinery"],
+    "icon": "Container"
+  },
+  {
+    "id": "bulk",
+    "name": "BULK",
+    "subtitle": "Moving Floor Trailer",
+    "volume": "92 m³",
+    "payload": "24 t",
+    "height": "Variable",
+    "features": ["Hydraulic Floor", "Walking Floor", "Rear/Top Load"],
+    "idealFor": ["Biomass & wood", "Loose bulk", "Recyclables"],
+    "icon": "Truck"
+  }
+]

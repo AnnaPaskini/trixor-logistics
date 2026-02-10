@@ -1,0 +1,50 @@
+[
+  {
+    "id": "driver",
+    "title": "Driver C+E",
+    "subtitle": "International Transport",
+    "image": "/trixor/images/Driver1.png",
+    "location": "Czech Republic / EU",
+    "schedule": "Full-time",
+    "salary": "From 65,000 CZK/month",
+    "icon": "Truck",
+    "requirements": [
+      "Valid CE driving license",
+      "Minimum 2 years experience",
+      "Digital tachograph card",
+      "EU work permit"
+    ]
+  },
+  {
+    "id": "mechanic",
+    "title": "Mechanic",
+    "subtitle": "Truck Service",
+    "image": "/trixor/images/Mechanik2.png",
+    "location": "Mladá Boleslav, CZ",
+    "schedule": "Full-time",
+    "salary": "From 55,000 CZK/month",
+    "icon": "Wrench",
+    "requirements": [
+      "Experience with heavy vehicles",
+      "Diagnostic equipment knowledge",
+      "Welding skills preferred",
+      "Driving license B (C preferred)"
+    ]
+  },
+  {
+    "id": "dispatcher",
+    "title": "Dispatcher",
+    "subtitle": "Transport Coordination",
+    "image": "/trixor/images/Dispatcher1.png",
+    "location": "Prague, CZ",
+    "schedule": "Full-time",
+    "salary": "From 50,000 CZK/month",
+    "icon": "Headphones",
+    "requirements": [
+      "Fluent English + German or Russian",
+      "Experience in logistics",
+      "Strong communication skills",
+      "Flexible schedule availability"
+    ]
+  }
+]
