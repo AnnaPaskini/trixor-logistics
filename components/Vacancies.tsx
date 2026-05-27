@@ -101,7 +101,7 @@ const Vacancies: React.FC = () => {
           <div className="container mx-auto px-4 md:px-8">
             <div className="flex flex-col lg:flex-row gap-16">
               <div className="lg:w-5/12 text-white">
-                <h2 className="text-primary font-bold tracking-widest uppercase mb-2">{t('vacancies.form.title')}</h2>
+                <h2 className="text-primary font-bold tracking-widest uppercase mb-2">{t('vacancies.sectionLabel')}</h2>
                 <h3 className="text-4xl lg:text-5xl font-black mb-6 leading-tight">{t('vacancies.form.title')}</h3>
                 <p className="text-neutral-400 text-lg mb-8">{t('vacancies.form.desc')}</p>
 

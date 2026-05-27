@@ -49,7 +49,7 @@ const AboutSection: React.FC = () => {
             <div className="order-1 lg:order-2">
               <div className="relative group overflow-hidden rounded-xl border border-neutral-800 bg-neutral-800 shadow-2xl">
                 <img
-                  src="/trixor/images/Jura 4.png"
+                  src="/trixor/images/Jura 4.webp"
                   alt="Trixor Fleet"
                   className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
                 />

@@ -26,7 +26,7 @@ const FleetEvidence: React.FC = () => {
             {/* Main Large Image */}
             <div className="lg:col-span-2 md:row-span-2 relative group overflow-hidden bg-neutral-900">
               <img
-                src="/trixor/images/TrixorWarehouse.png"
+                src="/trixor/images/TrixorWarehouse.webp"
                 alt="Trixor Warehouse"
                 onError={handleImageError}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-90 group-hover:opacity-100"
@@ -40,7 +40,7 @@ const FleetEvidence: React.FC = () => {
             {/* Secondary Images */}
             <div className="relative group overflow-hidden bg-neutral-900">
               <img
-                src="/trixor/images/Trixor1.png"
+                src="/trixor/images/Trixor1.webp"
                 alt="Trixor Fleet"
                 onError={handleImageError}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-90 group-hover:opacity-100"
@@ -53,7 +53,7 @@ const FleetEvidence: React.FC = () => {
 
             <div className="relative group overflow-hidden bg-neutral-900">
               <img
-                src="/trixor/images/Mechnik1.png"
+                src="/trixor/images/Mechnik1.webp"
                 alt="Fleet Mechanic"
                 onError={handleImageError}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-90 group-hover:opacity-100"
@@ -66,7 +66,7 @@ const FleetEvidence: React.FC = () => {
 
             <div className="relative group overflow-hidden bg-neutral-900 md:col-span-2 lg:col-span-2">
               <img
-                src="/trixor/images/PHOTO-2025-12-16-10-27-58.jpg"
+                src="/trixor/images/PHOTO-2025-12-16-10-27-58.webp"
                 alt="Trixor Team"
                 onError={handleImageError}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-90 group-hover:opacity-100"

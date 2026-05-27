@@ -126,7 +126,7 @@ const Hero: React.FC = () => {
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/50 z-0"></div>
 
-      <div className="container mx-auto px-4 md:px-8 relative z-10 flex-grow flex flex-col justify-center">
+      <div className="container mx-auto px-4 md:px-8 relative z-10 flex-grow flex flex-col justify-center pb-12 md:pb-24">
         <div className="max-w-4xl">
           <div className="inline-block px-1 py-3 text-white text-l font-mono font-bold tracking-widest uppercase mb-6">
             {t('hero.badge')}
@@ -167,7 +167,7 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Dynamic Details based on Selection */}
-        <div className="hero-tabs mt-12 md:mt-24 w-full md:max-w-4xl">
+        <div className="hero-tabs mt-8 md:mt-12 mb-8 md:mb-16 w-full md:max-w-4xl">
         <div className="flex flex-col md:flex-row gap-6 items-start md:items-center text-lg text-neutral-400">
           <div className="flex items-center gap-2">
             <CheckCircle2 size={32} className="text-primary" />
